@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+
+}
+.title {
+    display: flex;
+    align-items: center;
+    background-color: coral;
+    width: 100%;
+    height: 100px;
+}
+.main {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.food {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.food div {
+    margin: 10px;
+    background-color: grey;
+    width: 330px;
+}
